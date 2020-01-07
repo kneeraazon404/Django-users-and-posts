@@ -1,0 +1,27 @@
+{% extends "blog/base.html" %}
+{% block content %}
+<h1>About Food and Beverage NepaIoT Early Flood Detection & Avoidance System</h1>
+<p>“IoT Early Flood Detection & Avoidance System” is an intelligent system which keeps close watch
+    over various natural factors to predict a flood, so we can embrace ourselves for caution, to minimise the damage
+    caused by the flood. Natural disasters like a flood can be devastating leading to property damage and loss of lives.
+    To eliminate or lessen the impacts of the flood, the system uses various natural factors to detect flood. The system
+    has a wifi connectivity, thus it’s collected data can be accessed from anywhere quite easily using IoT.
+
+    To detect a flood the system observes various natural factors, which includes humidity, temperature, water level and
+    flow level. To collect data of mentioned natural factors the system consist of different sensors which collects data
+    for individual parameters. For detecting changes in humidity and temperature the system has a DHT11 Digital
+    Temperature Humidity Sensor. It is a advanced sensor module with consists of resistive humidity and temperature
+    detection components. The water level is always under observation by a float sensor, which work by opening and
+    closing circuits (dry contacts) as water levels rise and fall. It normally rest in the closed position, meaning the
+    circuit is incomplete and no electricity is passing through the wires yet. Once the water level drops below a
+    predetermined point, the circuit completes itself and sends electricity through the completed circuit to trigger an
+    alarm. The flow sensor on the system keeps eye on the flow of water. The water flow sensor consists of a plastic
+    valve body, a water rotor, and a hall-effect sensor. When water flows through the rotor, rotor rolls. Its speed
+    changes with different rate of flow.
+    The system also consist of a HC-SR04 Ultrasonic Range Finder Distance Sensor. The Ultrasonic sensor works on the
+    principle of SONAR and is designed to measure the distance using ultrasonic wave to determine the distance of an
+    object from the sensor. All the sensors are connected to Arduino UNO, which processes and saves data. The system has
+    wifi feature, which is useful to access the system and its data over IoT.
+
+</p>
+{% endblock content %}
