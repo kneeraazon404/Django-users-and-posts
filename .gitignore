@@ -37,6 +37,7 @@ lib64/
 parts/
 sdist/
 /staticfiles
+.gitignore
 /media
 requirements.txt
 var/
