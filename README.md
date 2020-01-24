@@ -1,1 +1,1 @@
-My first  django web app
+django app that lets the users register, login and make posts
