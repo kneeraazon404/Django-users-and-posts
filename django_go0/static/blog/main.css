@@ -1,7 +1,7 @@
 body {
-  background: #0a0b0c;
+  background: ##F7F7F9;
   color: #fbfbfb;
-  margin-top: 5rem;
+  margin-top: 5px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -29,7 +29,7 @@ ul {
 }
 
 .content-section {
-  background: #010d13;
+  background: ##F744F9;
   padding: 1px 2px;
   border: 1px solid #c0abab;
   border-radius: 1px;

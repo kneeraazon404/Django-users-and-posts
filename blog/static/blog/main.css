@@ -1,8 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background: #000000;
+  background: #ffffff;
   color: #000000;
   margin-top: 5rem;
-  margin: auto;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -17,6 +22,9 @@ ul {
   background-color: #02131b;
 }
 
+.site-header {
+  margin: 5px;
+}
 .site-header .navbar-nav .nav-link {
   color: #e6dada;
 }
@@ -30,11 +38,12 @@ ul {
 }
 
 .content-section {
-  background: #010d13;
+  background: ##F7F7F9;
   padding: 1px 2px;
   border: 1px solid #c0abab;
   border-radius: 1px;
   margin-bottom: 2px;
+  margin-top: 5px;
 }
 
 .article-title {
