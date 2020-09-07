@@ -7,7 +7,7 @@ SECRET_KEY = "1183702d9ad1062cace6a9fa183fec2e868e9b0538438722"
 
 DEBUG = "True"
 
-ALLOWED_HOSTS = ["usersandpost.herokuapp.com"]
+ALLOWED_HOSTS = ["*"]
 
 
 INSTALLED_APPS = [
